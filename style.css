@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+    opacity: 70%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 40px;
+    z-index: 999;
+    background-color: black;
+}
+
+.header {
+    color: lightgrey;
+    width: 400px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    position: relative;
+
+}
+
+.top-text {
+    position: absolute;
+    bottom: 50%;              /* vertical position */                  /* start at left edge */
+    width: 75%;              /* full width */
+    background-color: black;   /* black bar across page */
+    color: white;
+    text-align: center;       /* text centered inside the bar */
+    font-size: 25px;
+    padding: 5px 0;
+}
+
+
+.top-text h2,
+.top-text h4 {
+    margin: 0; /* removes default heading margins, to make the black bar skinny */
+}
+
+
+.tea-text h2,
+.tea-text h4 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.tea-images {
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.tea-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tea-caption {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.location {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.img-lo {
+    width: 70%;
+    position: relative;
+}
+
+.location-text {
+    color: white;
+    position: absolute;
+    top: 5%;
+}
+
+.location-row {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    gap: 90px;
+}
+.location-info {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 8px;
+    width: 200px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+.copyright {
+    text-align: left;
+}
